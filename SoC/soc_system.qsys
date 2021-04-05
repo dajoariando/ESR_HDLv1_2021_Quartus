@@ -9,84 +9,6 @@
    categories="System" />
  <parameter name="bonusData"><![CDATA[bonusData 
 {
-   element ADC_INIT_DELAY
-   {
-      datum _sortIndex
-      {
-         value = "32";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element ADC_INIT_DELAY.s1
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "448";
-         type = "String";
-      }
-   }
-   element ADC_SAMPLES_PER_ECHO
-   {
-      datum _sortIndex
-      {
-         value = "33";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element ADC_SAMPLES_PER_ECHO.s1
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "432";
-         type = "String";
-      }
-   }
-   element ADC_START_pulselength
-   {
-      datum _sortIndex
-      {
-         value = "34";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element ADC_START_pulselength.s1
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "416";
-         type = "String";
-      }
-   }
    element ILC
    {
       datum _sortIndex
@@ -96,7 +18,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -104,38 +26,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
          value = "0";
-         type = "String";
-      }
-   }
-   element ad9276_spi
-   {
-      datum _sortIndex
-      {
-         value = "29";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "1";
-         type = "boolean";
-      }
-   }
-   element ad9276_spi.spi_control_port
-   {
-      datum _lockedAddress
-      {
-         value = "1";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "320";
+         value = "256";
          type = "String";
       }
    }
@@ -148,7 +44,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -156,12 +52,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "640";
+         value = "736";
          type = "String";
       }
    }
@@ -174,7 +70,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -187,7 +83,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -203,12 +99,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "624";
+         value = "720";
          type = "String";
       }
    }
@@ -221,7 +117,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -234,7 +130,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -247,7 +143,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -255,12 +151,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "256";
+         value = "640";
          type = "String";
       }
    }
@@ -268,12 +164,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "656";
+         value = "760";
          type = "String";
       }
    }
@@ -281,12 +177,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "288";
+         value = "576";
          type = "String";
       }
    }
@@ -299,7 +195,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -307,12 +203,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "1184";
+         value = "608";
          type = "String";
       }
    }
@@ -320,12 +216,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "1288";
+         value = "752";
          type = "String";
       }
    }
@@ -333,324 +229,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "704";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_C
-   {
-      datum _sortIndex
-      {
-         value = "17";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
          value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_CH_C.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1152";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_C.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1280";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_C.out_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "672";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_D
-   {
-      datum _sortIndex
-      {
-         value = "19";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_CH_D.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1120";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_D.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1272";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_D.out_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "576";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_E
-   {
-      datum _sortIndex
-      {
-         value = "21";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_CH_E.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1088";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_E.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1264";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_E.out_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
          type = "boolean";
       }
       datum baseAddress
       {
          value = "544";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_F
-   {
-      datum _sortIndex
-      {
-         value = "23";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_CH_F.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1056";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_F.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1256";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_F.out_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "512";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_G
-   {
-      datum _sortIndex
-      {
-         value = "25";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_CH_G.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1024";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_G.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "1248";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_G.out_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "384";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_H
-   {
-      datum _sortIndex
-      {
-         value = "27";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_CH_H.in_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "736";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_H.out
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "664";
-         type = "String";
-      }
-   }
-   element fifo_sink_CH_H.out_csr
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "352";
          type = "String";
       }
    }
@@ -663,7 +247,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -676,85 +260,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_st_CH_C
-   {
-      datum _sortIndex
-      {
-         value = "18";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_st_CH_D
-   {
-      datum _sortIndex
-      {
-         value = "20";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_st_CH_E
-   {
-      datum _sortIndex
-      {
-         value = "22";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_st_CH_F
-   {
-      datum _sortIndex
-      {
-         value = "24";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_st_CH_G
-   {
-      datum _sortIndex
-      {
-         value = "26";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element fifo_sink_st_CH_H
-   {
-      datum _sortIndex
-      {
-         value = "28";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -767,7 +273,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -775,12 +281,12 @@
    {
       datum _sortIndex
       {
-         value = "31";
+         value = "19";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -788,12 +294,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "480";
+         value = "672";
          type = "String";
       }
    }
@@ -801,12 +307,12 @@
    {
       datum _sortIndex
       {
-         value = "30";
+         value = "18";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -814,12 +320,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "496";
+         value = "688";
          type = "String";
       }
    }
@@ -840,7 +346,7 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
@@ -853,7 +359,7 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
@@ -871,7 +377,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -884,7 +390,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -892,12 +398,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "131072";
+         value = "776";
          type = "String";
       }
    }
@@ -910,7 +416,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -918,12 +424,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "608";
+         value = "704";
          type = "String";
       }
    }
@@ -944,7 +450,7 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
@@ -953,71 +459,29 @@
          type = "String";
       }
    }
-   element mux_spi
+   element plldds_spi
    {
       datum _sortIndex
       {
-         value = "40";
-         type = "int";
-      }
-   }
-   element mux_spi.spi_control_port
-   {
-      datum baseAddress
-      {
-         value = "1312";
-         type = "String";
-      }
-   }
-   element pulse_damp_len
-   {
-      datum _sortIndex
-      {
-         value = "37";
+         value = "17";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
-         type = "boolean";
-      }
-   }
-   element pulse_damp_len.s1
-   {
-      datum _lockedAddress
-      {
          value = "1";
          type = "boolean";
       }
-      datum baseAddress
-      {
-         value = "464";
-         type = "String";
-      }
    }
-   element pulse_init_delay
+   element plldds_spi.spi_control_port
    {
-      datum _sortIndex
-      {
-         value = "35";
-         type = "int";
-      }
-      datum sopceditor_expanded
+      datum _lockedAddress
       {
          value = "0";
          type = "boolean";
       }
-   }
-   element pulse_init_delay.s1
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
       datum baseAddress
       {
-         value = "1232";
+         value = "512";
          type = "String";
       }
    }
@@ -1025,12 +489,12 @@
    {
       datum _sortIndex
       {
-         value = "38";
+         value = "20";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -1038,12 +502,12 @@
    {
       datum _sortIndex
       {
-         value = "39";
+         value = "21";
          type = "int";
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -1051,38 +515,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
-         type = "boolean";
-      }
-      datum baseAddress
-      {
-         value = "768";
-         type = "String";
-      }
-   }
-   element pulse_tx_len
-   {
-      datum _sortIndex
-      {
-         value = "36";
-         type = "int";
-      }
-      datum sopceditor_expanded
-      {
          value = "0";
          type = "boolean";
       }
-   }
-   element pulse_tx_len.s1
-   {
-      datum _lockedAddress
-      {
-         value = "1";
-         type = "boolean";
-      }
       datum baseAddress
       {
-         value = "1216";
+         value = "0";
          type = "String";
       }
    }
@@ -1095,7 +533,7 @@
       }
       datum sopceditor_expanded
       {
-         value = "0";
+         value = "1";
          type = "boolean";
       }
    }
@@ -1103,12 +541,12 @@
    {
       datum _lockedAddress
       {
-         value = "1";
+         value = "0";
          type = "boolean";
       }
       datum baseAddress
       {
-         value = "1296";
+         value = "768";
          type = "String";
       }
    }
@@ -1134,26 +572,6 @@
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface
-   name="ad9276_spi_external"
-   internal="ad9276_spi.external"
-   type="conduit"
-   dir="end" />
- <interface
-   name="adc_init_delay"
-   internal="ADC_INIT_DELAY.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="adc_samples_per_echo"
-   internal="ADC_SAMPLES_PER_ECHO.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="adc_start_pulselength"
-   internal="ADC_START_pulselength.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
    name="button_pio_external_connection"
    internal="button_pio.external_connection"
    type="conduit"
@@ -1177,36 +595,6 @@
  <interface
    name="fifo_sink_in_ch_b"
    internal="fifo_sink_st_CH_B.in"
-   type="avalon_streaming"
-   dir="end" />
- <interface
-   name="fifo_sink_in_ch_c"
-   internal="fifo_sink_st_CH_C.in"
-   type="avalon_streaming"
-   dir="end" />
- <interface
-   name="fifo_sink_in_ch_d"
-   internal="fifo_sink_st_CH_D.in"
-   type="avalon_streaming"
-   dir="end" />
- <interface
-   name="fifo_sink_in_ch_e"
-   internal="fifo_sink_st_CH_E.in"
-   type="avalon_streaming"
-   dir="end" />
- <interface
-   name="fifo_sink_in_ch_f"
-   internal="fifo_sink_st_CH_F.in"
-   type="avalon_streaming"
-   dir="end" />
- <interface
-   name="fifo_sink_in_ch_g"
-   internal="fifo_sink_st_CH_G.in"
-   type="avalon_streaming"
-   dir="end" />
- <interface
-   name="fifo_sink_in_ch_h"
-   internal="fifo_sink_st_CH_H.in"
    type="avalon_streaming"
    dir="end" />
  <interface
@@ -1251,15 +639,9 @@
    type="conduit"
    dir="end" />
  <interface name="memory" internal="hps_0.memory" type="conduit" dir="end" />
- <interface name="mux_spi" internal="mux_spi.external" type="conduit" dir="end" />
  <interface
-   name="pulse_damp_len"
-   internal="pulse_damp_len.external_connection"
-   type="conduit"
-   dir="end" />
- <interface
-   name="pulse_init_delay"
-   internal="pulse_init_delay.external_connection"
+   name="plldds_spi"
+   internal="plldds_spi.external"
    type="conduit"
    dir="end" />
  <interface
@@ -1272,66 +654,7 @@
    internal="pulse_pll.outclk0"
    type="clock"
    dir="start" />
- <interface
-   name="pulse_tx_len"
-   internal="pulse_tx_len.external_connection"
-   type="conduit"
-   dir="end" />
  <interface name="reset" internal="clk_0.clk_in_reset" type="reset" dir="end" />
- <module
-   name="ADC_INIT_DELAY"
-   kind="altera_avalon_pio"
-   version="17.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="ADC_SAMPLES_PER_ECHO"
-   kind="altera_avalon_pio"
-   version="17.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
- <module
-   name="ADC_START_pulselength"
-   kind="altera_avalon_pio"
-   version="17.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="32" />
- </module>
  <module
    name="ILC"
    kind="interrupt_latency_counter"
@@ -1340,22 +663,6 @@
   <parameter name="CLOCK_RATE" value="50000000" />
   <parameter name="INTR_TYPE" value="0" />
   <parameter name="IRQ_PORT_CNT" value="3" />
- </module>
- <module name="ad9276_spi" kind="altera_avalon_spi" version="17.1" enabled="1">
-  <parameter name="avalonSpec" value="2.0" />
-  <parameter name="clockPhase" value="0" />
-  <parameter name="clockPolarity" value="0" />
-  <parameter name="dataWidth" value="24" />
-  <parameter name="disableAvalonFlowControl" value="false" />
-  <parameter name="inputClockRate" value="50000000" />
-  <parameter name="insertDelayBetweenSlaveSelectAndSClk" value="false" />
-  <parameter name="insertSync" value="false" />
-  <parameter name="lsbOrderedFirst" value="false" />
-  <parameter name="masterSPI" value="true" />
-  <parameter name="numberOfSlaves" value="1" />
-  <parameter name="syncRegDepth" value="2" />
-  <parameter name="targetClockRate" value="4200000" />
-  <parameter name="targetSlaveSelectToSClkDelay" value="2000.0" />
  </module>
  <module name="button_pio" kind="altera_avalon_pio" version="17.1" enabled="1">
   <parameter name="bitClearingEdgeCapReg" value="true" />
@@ -1465,156 +772,6 @@
   <parameter name="useWriteControl" value="true" />
  </module>
  <module
-   name="fifo_sink_CH_C"
-   kind="altera_avalon_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
-  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
-  <parameter name="bitsPerSymbol" value="16" />
-  <parameter name="channelWidth" value="0" />
-  <parameter name="deviceFamilyString" value="Cyclone V" />
-  <parameter name="errorWidth" value="0" />
-  <parameter name="fifoDepth" value="4096" />
-  <parameter name="fifoInputInterfaceOptions" value="AVALONST_SINK" />
-  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
-  <parameter name="showHiddenFeatures" value="false" />
-  <parameter name="singleClockMode" value="false" />
-  <parameter name="singleResetMode" value="false" />
-  <parameter name="symbolsPerBeat" value="2" />
-  <parameter name="useBackpressure" value="true" />
-  <parameter name="useIRQ" value="false" />
-  <parameter name="usePacket" value="false" />
-  <parameter name="useReadControl" value="true" />
-  <parameter name="useRegister" value="false" />
-  <parameter name="useWriteControl" value="true" />
- </module>
- <module
-   name="fifo_sink_CH_D"
-   kind="altera_avalon_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
-  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
-  <parameter name="bitsPerSymbol" value="16" />
-  <parameter name="channelWidth" value="0" />
-  <parameter name="deviceFamilyString" value="Cyclone V" />
-  <parameter name="errorWidth" value="0" />
-  <parameter name="fifoDepth" value="4096" />
-  <parameter name="fifoInputInterfaceOptions" value="AVALONST_SINK" />
-  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
-  <parameter name="showHiddenFeatures" value="false" />
-  <parameter name="singleClockMode" value="false" />
-  <parameter name="singleResetMode" value="false" />
-  <parameter name="symbolsPerBeat" value="2" />
-  <parameter name="useBackpressure" value="true" />
-  <parameter name="useIRQ" value="false" />
-  <parameter name="usePacket" value="false" />
-  <parameter name="useReadControl" value="true" />
-  <parameter name="useRegister" value="false" />
-  <parameter name="useWriteControl" value="true" />
- </module>
- <module
-   name="fifo_sink_CH_E"
-   kind="altera_avalon_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
-  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
-  <parameter name="bitsPerSymbol" value="16" />
-  <parameter name="channelWidth" value="0" />
-  <parameter name="deviceFamilyString" value="Cyclone V" />
-  <parameter name="errorWidth" value="0" />
-  <parameter name="fifoDepth" value="4096" />
-  <parameter name="fifoInputInterfaceOptions" value="AVALONST_SINK" />
-  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
-  <parameter name="showHiddenFeatures" value="false" />
-  <parameter name="singleClockMode" value="false" />
-  <parameter name="singleResetMode" value="false" />
-  <parameter name="symbolsPerBeat" value="2" />
-  <parameter name="useBackpressure" value="true" />
-  <parameter name="useIRQ" value="false" />
-  <parameter name="usePacket" value="false" />
-  <parameter name="useReadControl" value="true" />
-  <parameter name="useRegister" value="false" />
-  <parameter name="useWriteControl" value="true" />
- </module>
- <module
-   name="fifo_sink_CH_F"
-   kind="altera_avalon_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
-  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
-  <parameter name="bitsPerSymbol" value="16" />
-  <parameter name="channelWidth" value="0" />
-  <parameter name="deviceFamilyString" value="Cyclone V" />
-  <parameter name="errorWidth" value="0" />
-  <parameter name="fifoDepth" value="4096" />
-  <parameter name="fifoInputInterfaceOptions" value="AVALONST_SINK" />
-  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
-  <parameter name="showHiddenFeatures" value="false" />
-  <parameter name="singleClockMode" value="false" />
-  <parameter name="singleResetMode" value="false" />
-  <parameter name="symbolsPerBeat" value="2" />
-  <parameter name="useBackpressure" value="true" />
-  <parameter name="useIRQ" value="false" />
-  <parameter name="usePacket" value="false" />
-  <parameter name="useReadControl" value="true" />
-  <parameter name="useRegister" value="false" />
-  <parameter name="useWriteControl" value="true" />
- </module>
- <module
-   name="fifo_sink_CH_G"
-   kind="altera_avalon_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
-  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
-  <parameter name="bitsPerSymbol" value="16" />
-  <parameter name="channelWidth" value="0" />
-  <parameter name="deviceFamilyString" value="Cyclone V" />
-  <parameter name="errorWidth" value="0" />
-  <parameter name="fifoDepth" value="4096" />
-  <parameter name="fifoInputInterfaceOptions" value="AVALONST_SINK" />
-  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
-  <parameter name="showHiddenFeatures" value="false" />
-  <parameter name="singleClockMode" value="false" />
-  <parameter name="singleResetMode" value="false" />
-  <parameter name="symbolsPerBeat" value="2" />
-  <parameter name="useBackpressure" value="true" />
-  <parameter name="useIRQ" value="false" />
-  <parameter name="usePacket" value="false" />
-  <parameter name="useReadControl" value="true" />
-  <parameter name="useRegister" value="false" />
-  <parameter name="useWriteControl" value="true" />
- </module>
- <module
-   name="fifo_sink_CH_H"
-   kind="altera_avalon_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="avalonMMAvalonMMDataWidth" value="32" />
-  <parameter name="avalonMMAvalonSTDataWidth" value="32" />
-  <parameter name="bitsPerSymbol" value="16" />
-  <parameter name="channelWidth" value="0" />
-  <parameter name="deviceFamilyString" value="Cyclone V" />
-  <parameter name="errorWidth" value="0" />
-  <parameter name="fifoDepth" value="4096" />
-  <parameter name="fifoInputInterfaceOptions" value="AVALONST_SINK" />
-  <parameter name="fifoOutputInterfaceOptions" value="AVALONMM_READ" />
-  <parameter name="showHiddenFeatures" value="false" />
-  <parameter name="singleClockMode" value="false" />
-  <parameter name="singleResetMode" value="false" />
-  <parameter name="symbolsPerBeat" value="2" />
-  <parameter name="useBackpressure" value="true" />
-  <parameter name="useIRQ" value="false" />
-  <parameter name="usePacket" value="false" />
-  <parameter name="useReadControl" value="true" />
-  <parameter name="useRegister" value="false" />
-  <parameter name="useWriteControl" value="true" />
- </module>
- <module
    name="fifo_sink_st_CH_A"
    kind="altera_avalon_sc_fifo"
    version="17.1"
@@ -1636,126 +793,6 @@
  </module>
  <module
    name="fifo_sink_st_CH_B"
-   kind="altera_avalon_sc_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="BITS_PER_SYMBOL" value="16" />
-  <parameter name="CHANNEL_WIDTH" value="0" />
-  <parameter name="EMPTY_LATENCY" value="3" />
-  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
-  <parameter name="ERROR_WIDTH" value="0" />
-  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
-  <parameter name="FIFO_DEPTH" value="16" />
-  <parameter name="SYMBOLS_PER_BEAT" value="1" />
-  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
-  <parameter name="USE_ALMOST_FULL_IF" value="0" />
-  <parameter name="USE_FILL_LEVEL" value="0" />
-  <parameter name="USE_MEMORY_BLOCKS" value="1" />
-  <parameter name="USE_PACKETS" value="0" />
-  <parameter name="USE_STORE_FORWARD" value="0" />
- </module>
- <module
-   name="fifo_sink_st_CH_C"
-   kind="altera_avalon_sc_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="BITS_PER_SYMBOL" value="16" />
-  <parameter name="CHANNEL_WIDTH" value="0" />
-  <parameter name="EMPTY_LATENCY" value="3" />
-  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
-  <parameter name="ERROR_WIDTH" value="0" />
-  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
-  <parameter name="FIFO_DEPTH" value="16" />
-  <parameter name="SYMBOLS_PER_BEAT" value="1" />
-  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
-  <parameter name="USE_ALMOST_FULL_IF" value="0" />
-  <parameter name="USE_FILL_LEVEL" value="0" />
-  <parameter name="USE_MEMORY_BLOCKS" value="1" />
-  <parameter name="USE_PACKETS" value="0" />
-  <parameter name="USE_STORE_FORWARD" value="0" />
- </module>
- <module
-   name="fifo_sink_st_CH_D"
-   kind="altera_avalon_sc_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="BITS_PER_SYMBOL" value="16" />
-  <parameter name="CHANNEL_WIDTH" value="0" />
-  <parameter name="EMPTY_LATENCY" value="3" />
-  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
-  <parameter name="ERROR_WIDTH" value="0" />
-  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
-  <parameter name="FIFO_DEPTH" value="16" />
-  <parameter name="SYMBOLS_PER_BEAT" value="1" />
-  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
-  <parameter name="USE_ALMOST_FULL_IF" value="0" />
-  <parameter name="USE_FILL_LEVEL" value="0" />
-  <parameter name="USE_MEMORY_BLOCKS" value="1" />
-  <parameter name="USE_PACKETS" value="0" />
-  <parameter name="USE_STORE_FORWARD" value="0" />
- </module>
- <module
-   name="fifo_sink_st_CH_E"
-   kind="altera_avalon_sc_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="BITS_PER_SYMBOL" value="16" />
-  <parameter name="CHANNEL_WIDTH" value="0" />
-  <parameter name="EMPTY_LATENCY" value="3" />
-  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
-  <parameter name="ERROR_WIDTH" value="0" />
-  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
-  <parameter name="FIFO_DEPTH" value="16" />
-  <parameter name="SYMBOLS_PER_BEAT" value="1" />
-  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
-  <parameter name="USE_ALMOST_FULL_IF" value="0" />
-  <parameter name="USE_FILL_LEVEL" value="0" />
-  <parameter name="USE_MEMORY_BLOCKS" value="1" />
-  <parameter name="USE_PACKETS" value="0" />
-  <parameter name="USE_STORE_FORWARD" value="0" />
- </module>
- <module
-   name="fifo_sink_st_CH_F"
-   kind="altera_avalon_sc_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="BITS_PER_SYMBOL" value="16" />
-  <parameter name="CHANNEL_WIDTH" value="0" />
-  <parameter name="EMPTY_LATENCY" value="3" />
-  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
-  <parameter name="ERROR_WIDTH" value="0" />
-  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
-  <parameter name="FIFO_DEPTH" value="16" />
-  <parameter name="SYMBOLS_PER_BEAT" value="1" />
-  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
-  <parameter name="USE_ALMOST_FULL_IF" value="0" />
-  <parameter name="USE_FILL_LEVEL" value="0" />
-  <parameter name="USE_MEMORY_BLOCKS" value="1" />
-  <parameter name="USE_PACKETS" value="0" />
-  <parameter name="USE_STORE_FORWARD" value="0" />
- </module>
- <module
-   name="fifo_sink_st_CH_G"
-   kind="altera_avalon_sc_fifo"
-   version="17.1"
-   enabled="1">
-  <parameter name="BITS_PER_SYMBOL" value="16" />
-  <parameter name="CHANNEL_WIDTH" value="0" />
-  <parameter name="EMPTY_LATENCY" value="3" />
-  <parameter name="ENABLE_EXPLICIT_MAXCHANNEL" value="false" />
-  <parameter name="ERROR_WIDTH" value="0" />
-  <parameter name="EXPLICIT_MAXCHANNEL" value="0" />
-  <parameter name="FIFO_DEPTH" value="16" />
-  <parameter name="SYMBOLS_PER_BEAT" value="1" />
-  <parameter name="USE_ALMOST_EMPTY_IF" value="0" />
-  <parameter name="USE_ALMOST_FULL_IF" value="0" />
-  <parameter name="USE_FILL_LEVEL" value="0" />
-  <parameter name="USE_MEMORY_BLOCKS" value="1" />
-  <parameter name="USE_PACKETS" value="0" />
-  <parameter name="USE_STORE_FORWARD" value="0" />
- </module>
- <module
-   name="fifo_sink_st_CH_H"
    kind="altera_avalon_sc_fifo"
    version="17.1"
    enabled="1">
@@ -2415,15 +1452,15 @@
   <parameter name="PIPELINE_COMMAND" value="1" />
   <parameter name="PIPELINE_RESPONSE" value="1" />
   <parameter name="SYMBOL_WIDTH" value="8" />
-  <parameter name="SYSINFO_ADDR_WIDTH" value="18" />
+  <parameter name="SYSINFO_ADDR_WIDTH" value="10" />
   <parameter name="USE_AUTO_ADDRESS_WIDTH" value="1" />
   <parameter name="USE_RESPONSE" value="0" />
  </module>
- <module name="mux_spi" kind="altera_avalon_spi" version="17.1" enabled="1">
+ <module name="plldds_spi" kind="altera_avalon_spi" version="17.1" enabled="1">
   <parameter name="avalonSpec" value="2.0" />
   <parameter name="clockPhase" value="0" />
   <parameter name="clockPolarity" value="0" />
-  <parameter name="dataWidth" value="8" />
+  <parameter name="dataWidth" value="24" />
   <parameter name="disableAvalonFlowControl" value="false" />
   <parameter name="inputClockRate" value="50000000" />
   <parameter name="insertDelayBetweenSlaveSelectAndSClk" value="false" />
@@ -2432,44 +1469,8 @@
   <parameter name="masterSPI" value="true" />
   <parameter name="numberOfSlaves" value="1" />
   <parameter name="syncRegDepth" value="2" />
-  <parameter name="targetClockRate" value="128000" />
-  <parameter name="targetSlaveSelectToSClkDelay" value="0.0" />
- </module>
- <module
-   name="pulse_damp_len"
-   kind="altera_avalon_pio"
-   version="17.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
- </module>
- <module
-   name="pulse_init_delay"
-   kind="altera_avalon_pio"
-   version="17.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
+  <parameter name="targetClockRate" value="4200000" />
+  <parameter name="targetSlaveSelectToSClkDelay" value="2000.0" />
  </module>
  <module name="pulse_pll" kind="altera_pll" version="17.1" enabled="1">
   <parameter name="debug_print_output" value="false" />
@@ -2685,24 +1686,6 @@
   <parameter name="device_family" value="Cyclone V" />
  </module>
  <module
-   name="pulse_tx_len"
-   kind="altera_avalon_pio"
-   version="17.1"
-   enabled="1">
-  <parameter name="bitClearingEdgeCapReg" value="false" />
-  <parameter name="bitModifyingOutReg" value="false" />
-  <parameter name="captureEdge" value="false" />
-  <parameter name="clockRate" value="50000000" />
-  <parameter name="direction" value="Output" />
-  <parameter name="edgeType" value="RISING" />
-  <parameter name="generateIRQ" value="false" />
-  <parameter name="irqType" value="LEVEL" />
-  <parameter name="resetValue" value="0" />
-  <parameter name="simDoTestBenchWiring" value="false" />
-  <parameter name="simDrivenValue" value="0" />
-  <parameter name="width" value="8" />
- </module>
- <module
    name="sysid_qsys"
    kind="altera_avalon_sysid_qsys"
    version="17.1"
@@ -2724,7 +1707,7 @@
    start="mm_bridge_0.m0"
    end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00020000" />
+  <parameter name="baseAddress" value="0x0308" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -2732,24 +1715,6 @@
    version="17.1"
    start="mm_bridge_0.m0"
    end="ILC.avalon_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="sysid_qsys.control_slave">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0510" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_A.in_csr">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0100" />
   <parameter name="defaultConnection" value="false" />
@@ -2758,70 +1723,7 @@
    kind="avalon"
    version="17.1"
    start="mm_bridge_0.m0"
-   end="fifo_sink_CH_B.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04a0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_C.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0480" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_D.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0460" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_E.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0440" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_F.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0420" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_G.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0400" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_H.in_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02e0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="pulse_pll_reconfig.mgmt_avalon_slave">
+   end="sysid_qsys.control_slave">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0300" />
   <parameter name="defaultConnection" value="false" />
@@ -2830,151 +1732,7 @@
    kind="avalon"
    version="17.1"
    start="mm_bridge_0.m0"
-   end="fifo_sink_CH_A.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0290" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_B.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0508" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_C.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0500" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_D.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04f8" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_E.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04f0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_F.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04e8" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_G.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04e0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_H.out">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0298" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_A.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0120" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_B.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02c0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_C.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x02a0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_D.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0240" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_E.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0220" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_F.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0200" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_G.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0180" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="fifo_sink_CH_H.out_csr">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0160" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="button_pio.s1">
+   end="fifo_sink_CH_A.in_csr">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0280" />
   <parameter name="defaultConnection" value="false" />
@@ -2983,12 +1741,7 @@
    kind="avalon"
    version="17.1"
    start="mm_bridge_0.m0"
-   end="dipsw_pio.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0270" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection kind="avalon" version="17.1" start="mm_bridge_0.m0" end="led_pio.s1">
+   end="fifo_sink_CH_B.in_csr">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x0260" />
   <parameter name="defaultConnection" value="false" />
@@ -2997,9 +1750,77 @@
    kind="avalon"
    version="17.1"
    start="mm_bridge_0.m0"
+   end="pulse_pll_reconfig.mgmt_avalon_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
+   end="fifo_sink_CH_A.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02f8" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
+   end="fifo_sink_CH_B.out">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02f0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
+   end="fifo_sink_CH_A.out_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0240" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
+   end="fifo_sink_CH_B.out_csr">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0220" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
+   end="button_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02e0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
+   end="dipsw_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02d0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection kind="avalon" version="17.1" start="mm_bridge_0.m0" end="led_pio.s1">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x02c0" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="17.1"
+   start="mm_bridge_0.m0"
    end="general_cnt_out.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01f0" />
+  <parameter name="baseAddress" value="0x02b0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3008,79 +1829,16 @@
    start="mm_bridge_0.m0"
    end="general_cnt_in.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01e0" />
+  <parameter name="baseAddress" value="0x02a0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
    kind="avalon"
    version="17.1"
    start="mm_bridge_0.m0"
-   end="ADC_INIT_DELAY.s1">
+   end="plldds_spi.spi_control_port">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01c0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="ADC_SAMPLES_PER_ECHO.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01b0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="ADC_START_pulselength.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01a0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="pulse_init_delay.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04d0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="pulse_tx_len.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x04c0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="pulse_damp_len.s1">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x01d0" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="ad9276_spi.spi_control_port">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0140" />
-  <parameter name="defaultConnection" value="false" />
- </connection>
- <connection
-   kind="avalon"
-   version="17.1"
-   start="mm_bridge_0.m0"
-   end="mux_spi.spi_control_port">
-  <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0520" />
+  <parameter name="baseAddress" value="0x0200" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3089,7 +1847,7 @@
    start="fpga_only_master.master"
    end="jtag_uart.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x00020000" />
+  <parameter name="baseAddress" value="0x0308" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3098,7 +1856,7 @@
    start="fpga_only_master.master"
    end="ILC.avalon_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="baseAddress" value="0x0100" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3107,7 +1865,7 @@
    start="fpga_only_master.master"
    end="sysid_qsys.control_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0510" />
+  <parameter name="baseAddress" value="0x0300" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3134,7 +1892,7 @@
    start="fpga_only_master.master"
    end="led_pio.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0260" />
+  <parameter name="baseAddress" value="0x02c0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3143,7 +1901,7 @@
    start="fpga_only_master.master"
    end="dipsw_pio.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0270" />
+  <parameter name="baseAddress" value="0x02d0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3152,7 +1910,7 @@
    start="fpga_only_master.master"
    end="button_pio.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0280" />
+  <parameter name="baseAddress" value="0x02e0" />
   <parameter name="defaultConnection" value="false" />
  </connection>
  <connection
@@ -3165,36 +1923,6 @@
    version="17.1"
    start="fifo_sink_st_CH_B.out"
    end="fifo_sink_CH_B.in" />
- <connection
-   kind="avalon_streaming"
-   version="17.1"
-   start="fifo_sink_st_CH_C.out"
-   end="fifo_sink_CH_C.in" />
- <connection
-   kind="avalon_streaming"
-   version="17.1"
-   start="fifo_sink_st_CH_D.out"
-   end="fifo_sink_CH_D.in" />
- <connection
-   kind="avalon_streaming"
-   version="17.1"
-   start="fifo_sink_st_CH_E.out"
-   end="fifo_sink_CH_E.in" />
- <connection
-   kind="avalon_streaming"
-   version="17.1"
-   start="fifo_sink_st_CH_F.out"
-   end="fifo_sink_CH_F.in" />
- <connection
-   kind="avalon_streaming"
-   version="17.1"
-   start="fifo_sink_st_CH_G.out"
-   end="fifo_sink_CH_G.in" />
- <connection
-   kind="avalon_streaming"
-   version="17.1"
-   start="fifo_sink_st_CH_H.out"
-   end="fifo_sink_CH_H.in" />
  <connection
    kind="clock"
    version="17.1"
@@ -3217,7 +1945,7 @@
    start="clk_0.clk"
    end="f2sdram_only_master.clk" />
  <connection kind="clock" version="17.1" start="clk_0.clk" end="mm_bridge_0.clk" />
- <connection kind="clock" version="17.1" start="clk_0.clk" end="ad9276_spi.clk" />
+ <connection kind="clock" version="17.1" start="clk_0.clk" end="plldds_spi.clk" />
  <connection
    kind="clock"
    version="17.1"
@@ -3232,69 +1960,12 @@
    kind="clock"
    version="17.1"
    start="clk_0.clk"
-   end="ADC_INIT_DELAY.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="ADC_SAMPLES_PER_ECHO.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="ADC_START_pulselength.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="pulse_init_delay.clk" />
- <connection kind="clock" version="17.1" start="clk_0.clk" end="pulse_tx_len.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="pulse_damp_len.clk" />
- <connection kind="clock" version="17.1" start="clk_0.clk" end="mux_spi.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
    end="fifo_sink_CH_A.clk_out" />
  <connection
    kind="clock"
    version="17.1"
    start="clk_0.clk"
    end="fifo_sink_CH_B.clk_out" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="fifo_sink_CH_C.clk_out" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="fifo_sink_CH_D.clk_out" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="fifo_sink_CH_E.clk_out" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="fifo_sink_CH_F.clk_out" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="fifo_sink_CH_G.clk_out" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="clk_0.clk"
-   end="fifo_sink_CH_H.clk_out" />
  <connection
    kind="clock"
    version="17.1"
@@ -3335,72 +2006,12 @@
    kind="clock"
    version="17.1"
    start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_st_CH_C.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_st_CH_D.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_st_CH_E.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_st_CH_F.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_st_CH_G.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_st_CH_H.clk" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
    end="fifo_sink_CH_A.clk_in" />
  <connection
    kind="clock"
    version="17.1"
    start="fifo_clk_bridge.out_clk"
    end="fifo_sink_CH_B.clk_in" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_CH_C.clk_in" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_CH_D.clk_in" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_CH_E.clk_in" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_CH_F.clk_in" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_CH_G.clk_in" />
- <connection
-   kind="clock"
-   version="17.1"
-   start="fifo_clk_bridge.out_clk"
-   end="fifo_sink_CH_H.clk_in" />
  <connection
    kind="conduit"
    version="17.1"
@@ -3448,15 +2059,8 @@
    kind="interrupt"
    version="17.1"
    start="hps_0.f2h_irq1"
-   end="ad9276_spi.irq">
+   end="plldds_spi.irq">
   <parameter name="irqNumber" value="0" />
- </connection>
- <connection
-   kind="interrupt"
-   version="17.1"
-   start="hps_0.f2h_irq1"
-   end="mux_spi.irq">
-  <parameter name="irqNumber" value="1" />
  </connection>
  <connection kind="interrupt" version="17.1" start="ILC.irq" end="jtag_uart.irq">
   <parameter name="irqNumber" value="0" />
@@ -3496,36 +2100,6 @@
    kind="reset"
    version="17.1"
    start="clk_0.clk_reset"
-   end="fifo_sink_st_CH_C.clk_reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_st_CH_D.clk_reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_st_CH_E.clk_reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_st_CH_F.clk_reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_st_CH_G.clk_reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_st_CH_H.clk_reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
    end="pulse_pll_reconfig.mgmt_reset" />
  <connection
    kind="reset"
@@ -3561,7 +2135,7 @@
    kind="reset"
    version="17.1"
    start="clk_0.clk_reset"
-   end="ad9276_spi.reset" />
+   end="plldds_spi.reset" />
  <connection
    kind="reset"
    version="17.1"
@@ -3576,42 +2150,7 @@
    kind="reset"
    version="17.1"
    start="clk_0.clk_reset"
-   end="ADC_INIT_DELAY.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="ADC_SAMPLES_PER_ECHO.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="ADC_START_pulselength.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="pulse_init_delay.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="pulse_tx_len.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="pulse_damp_len.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
    end="pulse_pll.reset" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="mux_spi.reset" />
  <connection
    kind="reset"
    version="17.1"
@@ -3622,36 +2161,6 @@
    version="17.1"
    start="clk_0.clk_reset"
    end="fifo_sink_CH_B.reset_in" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_C.reset_in" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_D.reset_in" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_E.reset_in" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_F.reset_in" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_G.reset_in" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_H.reset_in" />
  <connection kind="reset" version="17.1" start="clk_0.clk_reset" end="ILC.reset_n" />
  <connection
    kind="reset"
@@ -3663,36 +2172,6 @@
    version="17.1"
    start="clk_0.clk_reset"
    end="fifo_sink_CH_B.reset_out" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_C.reset_out" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_D.reset_out" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_E.reset_out" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_F.reset_out" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_G.reset_out" />
- <connection
-   kind="reset"
-   version="17.1"
-   start="clk_0.clk_reset"
-   end="fifo_sink_CH_H.reset_out" />
  <interconnectRequirement for="$system" name="qsys_mm.clockCrossingAdapter" value="HANDSHAKE" />
  <interconnectRequirement for="$system" name="qsys_mm.maxAdditionalLatency" value="1" />
 </system>
